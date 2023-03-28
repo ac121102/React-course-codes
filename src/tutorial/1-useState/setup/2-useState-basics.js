@@ -9,7 +9,7 @@ const UseStateBasics = () => {
   const [cnt, setText] = useState(0);
 
   const addCount = () => {
-    const new_cnt = cnt + 1;
+    let new_cnt = cnt + 1;
     setText(new_cnt);
   };
 
